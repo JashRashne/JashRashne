@@ -24,10 +24,6 @@ Includes leader election, replicated logs, quorum commits, automatic failover, p
 
 Real-time collaborative ideation platform with a FastAPI backend, asynchronous MongoDB persistence, server-authoritative WebSocket synchronization, layered backend architecture, and AI-assisted workflows.
 
-### [MileMint](https://github.com/JashRashne/MileMint)
-
-HOS-aware commercial trip planner with a Python/Django rules engine that models driver duty constraints, route planning, mandatory rest periods, and multi-day ELD-style log generation.
-
 ## Open Source
 
 Contributor to [vorssaint-utils](https://github.com/vorssaint/vorssaint-utils).
