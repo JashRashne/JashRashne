@@ -26,10 +26,17 @@ Real-time collaborative ideation platform with a FastAPI backend, asynchronous M
 
 ## Open Source
 
-Contributor to [vorssaint-utils](https://github.com/vorssaint/vorssaint-utils).
+Contributor to [OpenTelemetry Collector Contrib](https://github.com/open-telemetry/opentelemetry-collector-contrib), [px0](https://github.com/px0-ai/px0), and [Vorssaint](https://github.com/vorssaint/vorssaint-utils).
 
-* [PR #909](https://github.com/vorssaint/vorssaint-utils/pull/909) — merged contribution improving Scratchpad default naming while preserving existing user data and migration behaviour.
-* Additional work on installer behaviour, filesystem safety, regression testing, and macOS application installation workflows.
+* **OpenTelemetry** — [PR #51231](https://github.com/open-telemetry/opentelemetry-collector-contrib/pull/51231) — fixed incorrect SQL Server receiver rate metrics by deriving rates from raw cumulative counters, with per-stream state tracking, counter-reset handling, stale-stream recovery, fractional-rate support, and regression tests.
+
+* **px0** — [PR #156](https://github.com/px0-ai/px0/pull/156) — added Expand All / Collapse All controls to the file explorer with batched directory expansion, cancellation, stale-response handling, persisted folder state, accessibility support, and ignored-directory safeguards.
+
+* **Vorssaint** — [PR #963](https://github.com/vorssaint/vorssaint-utils/pull/963) — added support for installing macOS applications into `~/Applications`, including persisted destination preferences, cross-directory collision handling, filesystem safety checks, regression coverage, and localization across 13 languages.
+
+* **Vorssaint** — [PR #909](https://github.com/vorssaint/vorssaint-utils/pull/909) — improved Scratchpad default naming while preserving existing user data, custom names, and legacy migration behaviour.
+
+All contributions above were merged upstream.
 
 ## Currently Exploring
 
